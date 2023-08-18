@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet">
-    <script src="./script.js"></script>
     <title>Gift Membership</title>
 </head>
 
@@ -22,20 +21,20 @@
     </div>
 
     <div class="us-discovery-price">
-      <div class="$99">
+      <div>
         <input type="radio" id="$99" name="usprice" value="$99">
         <label for="$99">$99</label>
         <p class="period">/ 6 months</p>
       </div>
-      <div class="$189">
+      <div>
         <input type="radio" id="$189" name="usprice" value="$189">
         <label for="$189">$189</label>
         <p class="period">/ 12 months</p>
       </div>
-      <div class="hidden">
-        <p id="selected-us-gift">Selected gift</p>
-      </div>
     </div>
+
+    <p class="hidden" id="selected-us-gift">Selected gift</p>
+    
 
   </div>
 
@@ -51,12 +50,12 @@
     </div>
 
     <div class="world-explorer-price">
-      <div class="$149">
+      <div>
         <input type="radio" id="$149" name="world-price" value="$149">
         <label for="$149">$149</label>
         <p class="period">/ 6 months</p>
       </div>
-      <div class="$189">
+      <div>
         <input type="radio" id="$189" name="world-price" value="$299">
         <label for="$299">$299</label>
         <p class="period">/ 12 months</p>
@@ -71,6 +70,8 @@
   <button class="order-now">
     Order Now
   </button>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>

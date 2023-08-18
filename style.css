@@ -25,6 +25,7 @@ body {
 
 img {
   width: 10%;
+  min-width: 100px;
   display: block;
   margin: 0 auto;
 }
@@ -38,7 +39,7 @@ h1 {
   background-color: var(--box-bg-color);
   display: flex;
   justify-content: space-between;
-  padding: 1rem 3rem;
+  align-items: center;
   width: 60%;
   margin: 0 auto;
   padding: 40px;
@@ -61,7 +62,7 @@ p {
   border-radius: 10px;
   background-color: var(--main-bg-color);
   font-size: 20px;
-  padding: 10px;
+  padding: 15px;
   line-height: 30px;
 }
 
@@ -75,7 +76,6 @@ p {
   background-color: var(--box-bg-color);
   display: flex;
   justify-content: space-between;
-  padding: 1rem 3rem;
   width: 60%;
   margin: 30px auto;
   padding: 40px;
@@ -91,6 +91,7 @@ p {
   color: #E4E4FE;
   padding: 3px 15px;
   width: 20%;
+  min-width: 150px;
   text-align: center;
   border-radius: 0 0 10px 0;
 }
@@ -111,4 +112,37 @@ button {
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    padding: 0 10%;
+    margin-bottom: 20px;
+  }
+
+  .us-discovery, 
+  .world-explorer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 16px;
+  }
+
+  .us-discovery-desc, 
+  .world-explorer-desc {
+    margin-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .us-discovery-price,
+  .world-explorer-price {
+    width: 100%;
+  }
+
+  .note {
+    padding: 0 10%;
+  }
+
 }
