@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Gift Membership</title>
+</head>
+
+<body>
+  <div class="title">
+    <img src="./resources/gift.png">
+    <h1>Select a gift membership</h1>
+  </div>
+
+  <div class="us-discovery">
+    <div class="us-discovery-desc">
+      <h3>U.S. Discovery</h3>
+      <p>Your friends and family members can explore their American <br>
+         roots with access to billions of records from all 50 states.</p>
+    </div>
+
+    <div class="us-discovery-price">
+      <div class="$99">
+        <input type="radio" id="$99" name="usprice" value="$99">
+        <label for="$99">$99</label>
+        <p class="period">/ 6 months</p>
+      </div>
+      <div class="$189">
+        <input type="radio" id="$189" name="usprice" value="$189">
+        <label for="$189">$189</label>
+        <p class="period">/ 12 months</p>
+      </div>
+      <div class="hidden">
+        <p id="selected-us-gift">Selected gift</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="world-explorer">
+    <p class="popular">
+      Most Popular
+    </p>
+
+    <div class="world-explorer-desc">
+      <h3>World Explorer</h3>
+      <p>Recipients will be able to search for U.S. and international <br>
+        family with access to billions of records from 80+ countries.</p>
+    </div>
+
+    <div class="world-explorer-price">
+      <div class="$149">
+        <input type="radio" id="$149" name="world-price" value="$149">
+        <label for="$149">$149</label>
+        <p class="period">/ 6 months</p>
+      </div>
+      <div class="$189">
+        <input type="radio" id="$189" name="world-price" value="$299">
+        <label for="$299">$299</label>
+        <p class="period">/ 12 months</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="note">Keep in mind that this is a one-time, non renewing membership and you will only be billed for the <br>
+     cost of the membership you select above.</p>
+  
+  <button class="order-now">
+    Order Now
+  </button>
+</body>
+
+</html>
