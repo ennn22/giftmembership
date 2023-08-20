@@ -131,6 +131,11 @@ button {
   margin: 20px auto;
 }
 
+.order-btn {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
 .hidden {
   display: none;
 }
